@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/custom.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+	<title>Knowledge articles</title>
+</head>
+<body class="bg-main">
+	<header class="p-header">
+		<div id="myNav" class="overlay"></div>
+		<div class="navbar navbar-expand-lg navbar-light">
+			<span class="d-flex">
+				<div class="navbar-brand">
+					<a href="index.html"><img class="ml-5 icon-size" src="images/logo/logo_dareout-01.png"></a>
+				</div>
+				
+				</div>	
+			</span>
+		<div class="navbar-list">
+			<ul class="navbar-list-u">
+				<li class="navbar-list-l" id="dropdown">
+					<a class="font-pink" href="index.html#container1">5 สถานการณ์ล่วงละเมิดทางเพศและความรุนแรง</a>
+					<div class="dropdown-situation">
+						<a class="sub-situation" href="Situation.html">Situation1</a>
+						<a class="sub-situation" href="Situation1.html">Situation2</a>
+						<a class="sub-situation" href="Situation2.html">Situation3</a>
+						<a class="sub-situation" href="Situation3.html">Situation4</a>
+						<a class="sub-situation" href="Situation4.html">Situation5</a>
+					</div>
+				</li>
+				<li class="navbar-list-l"><a class="font-pink" href="Knowledge articles.html">แนะนำบทความน่ารู้</a></li>
+				<li class="navbar-list-l"><a class="font-pink" href="department.html">หน่วยงานที่ให้ความช่วยเหลือ</a></li>
+				<li class="navbar-list-l"><a class="font-pink" href="about.html">เกี่ยวกับเรา</a></li>
+			</ul>
+		</div>
+		<nav class="navbar navbar-inverse pt-5 px-5">
+			<button id="rightOff" style="display: flex;z-index: 1;" onclick="openNavRight()" type="button" class="btn bg-pink font-white get-help-btn justify-content-center">
+				<div class=" align-self-center ">Get helps</div> 
+			</button>
+			<button id="rightOn" style="display: none;z-index: 3;" onclick="closeNavRight()" type="button" class=" btn bg-pink font-white get-help-btn">
+				<div class="d-flex justify-content-center ">
+					<div class=" align-self-center ">Close</div> 
+					<i class="fa fa-times-circle-o align-self-center ml-2" style="font-size: 30px;" aria-hidden="true"></i>
+				</div>
+			</button>
+			<div id="mySidenav" class="sidenav">
+				<div class="mt-5">
+				<div class="p-4">
+					<h1 class="font-weight-bold">ปรึกษา/</h1>
+					<h1 class="ml-4 font-weight-bold">ขอความช่วยเหลือ</h1>
+				</div>
+				<div class="p-5">
+					<table class="table table-layout">
+						<thead>
+							<tr>
+								<th style="width:50%;" scope="col">หน่วยงาน</th>
+								<th scope="col">WEBSITE</th>
+								<th scope="col">เบอร์โทร</th>
+							</tr>
+						</thead>
+						<tbody class="table-tho">
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">สถานีตำรวจทุกแห่ง</th>
+						      <td class="table-two"><a class="table-two" href="http://www.royalthaipolice.go.th/index.php">Click!</a></td>
+						      <td class="table-three">191</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">กระทรวงการพัฒนาสังคมและความมั่นคงมนุษย์</th>
+						      <td class="table-two"><a class="table-two" href="http://www.m-society.go.th/home.php">Click!</a></td>
+						      <td class="table-three">1300</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">ศูนย์ให้คำปรึกษาปัญหาเยาวชนและครอบครัว สถานพินิจและคุ้มครองเด็กและเยาวชนกลาง กระทรวงยุติธรรม ถนนแจ้งวัฒนะ ต.คลองเกลือ อ.ปากเกร็ด จ.นนทบุรี 11120</th>
+						      <td class="table-two"><a class="table-two" href="http://www.djop.go.th/Djop/index.php">Click!</a></td>
+						      <td class="table-three">0 2222 1194 5, 0 2221 3137 70 ต่อ 068 9,610,615</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">กองกำกับการสวัสดิภาพเด็กและเยาวชน สานักงานตารวจแห่งชาติ 1 ถนนราชดาเนินนอก แขวงโสมนัส เขตป้อมปราบศัตรูพ่าย กรุงเทพมหานคร 10100</th>
+						      <td class="table-two"><a class="table-two" href="https://www.facebook.com/%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B4%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%81%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B8%B5-%E0%B8%81%E0%B8%81%E0%B8%94%E0%B8%AA-275762442491755/">Click!</a></td>
+						      <td class="table-three">0 2281 1449</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">มูลนิธิเครือข่ายครอบครัว 192 ซ.8 ถนนเทศบาลนิมิตเหนือ ประชานิเวศน์1 เขตจตุจักร กรุงเทพฯ 10900</th>
+						      <td class="table-two"><a class="table-two" href="http://www.familynetwork.or.th/">Click!</a></td>
+						      <td class="table-three">0 2954 2346-7, โทรสาร 0 2954 2348 หรือ Email : famnet@familynetwork.or.th</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">กองคุ้มครองสวัสดิภาพเด็ก กรมประชาสงเคราะห์ กระทรวงแรงงานและสวัสดิการสังคม สถานสงเคราะห์เด็กบ้านราชวิถี ถนนราชวิถี แขวงทุ่งพญาไท เขตราชเทวี กรุงเทพมหานคร 10400</th>
+						      <td class="table-two"><a class="table-two" href="https://dcy.go.th/webnew/older/">Click!</a></td>
+						      <td class="table-three">0 2246 8652, 0 2247 9485</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">สำนักพัฒนาบริการท่องเที่ยวกระทรวงท่องเที่ยวและกีฬาสนามกีฬาแห่งชาติ ถ.พระราม1 วังใหม่ เขตปทุมวัน กรุงเทพฯ 10330</th>
+						      <td class="table-two"><a class="table-two" href="https://www.mots.go.th/">Click!</a></td>
+						      <td class="table-three">0 2219 4010 17</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">กระทรวงมูลนิธิปวีณาหงสกุลเพื่อเด็กและสตรี (องค์กรสาธารณประโยชน์) 84/14 หมู่2 ถ.รังสิต-นครนายก (คลอง7) ต.ลำผักกูด อ.ธัญบุรี จ.ปทุมธานี 12110 ตู้ ปณ.: 222 ธัญบุรี</th>
+						      <td class="table-two"><a class="table-two" href="https://pavenafoundation.or.th/">Click!</a></td>
+						      <td class="table-three">02 577 0500-1, 02 577 0496-8, มือถือ : 08 1814 0244 , 06 2560 1636, 09 8478 8991 และ 08 1890 1355, โทรสาร : 02 577 0499, สายด่วน 1134</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">มูลนิธิศูนย์พิทักษ์สิทธิเด็ก สำนักงานใหญ่ส่วนกลาง : เลขที่ 979 ซอยจรัญสนิทวงศ์12 แขวงวัดท่าพระ เขตบางกอกใหญ่ กรุงเทพฯ 10600, ฝ่ายพัฒนาเด็กและครอบครัว : เลขที่ 170/2 ถนนอิสรภาพ 33 แขวงวัดท่าพระ เขตบางกอกใหญ่ กรุงเทพมหานคร 10600</th>
+						      <td class="table-two"><a class="table-two" href="https://www.thaichildrights.org/">Click!</a></td>
+						      <td class="table-three">สำนักงานใหญ่ส่วนกลาง : 0-2412-1196, 0-2412-0739, 0-2864-1421, Fax: 0-2412-9833 หรือ Email: cpcrheadoffice1981@gmail.com <br> ฝ่ายพัฒนาเด็กและครอบครัว : 0-2412-0738 , 0-2412-9834 Fax: 0-2412-0738 ต่อ 104 หรือ Email: cpcr.cpcr@gmail.com</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">ศูนย์กนิษฐ์นารี สมาคมส่งเสริมสถานภาพสตรีในพระอุปถัมภ์ พระเจ้าวรวงศ์พระองค์เจ้าโสมสวลี พระวรราชาทินัดดามาตุ เลขที่ 501/1 ถ.เดชะตุงคะ แขวงสีกัน เขตดอนเมือง กรุงเทพมหานคร</th>
+						      <td class="table-two"><a class="table-two" href="http://www.apsw-thailand.org/index.htm">Click!</a></td>
+						      <td class="table-three">02 929 2222 หรือ E-mail : admin@spsw-thailand.org</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">มูลนิธิเพื่อนหญิง 386/61 62 ซอยรัชดาภิเษก42 (ซอยเฉลิมสุข) ถ.รัชดาภิเษก แขวงลาดยาว เขตจตุจักร กรุงเทพมหานคร 10900</th>
+						      <td class="table-two"><a class="table-two" href="http://www.fowomen.org/about%20us.html">Click!</a></td>
+						      <td class="table-three">0 2513 1001</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">มูลนิธิผู้หญิง 295 ซอยจรัญสนิทวงศ์62 บางพลัด กรุงเทพมหานคร 10700</th>
+						      <td class="table-two"><a class="table-two" href="http://womenthai.org/">Click!</a></td>
+						      <td class="table-three">0 2433 5149, 0 2435 1246 หรือ E-mail : ffw@womenthai.org</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">องค์การแอมเนสตี้ อินเตอร์เนชั่นแนล ประเทศไทย 641/8 วราเพลส ลาดพร้าวซอย5 ถนนลาดพร้าว จตุจักร กรุงเทพมหานคร 10900</th>
+						      <td class="table-two"><a class="table-two" href="https://www.amnesty.or.th/">Click!</a></td>
+						      <td class="table-three">02 938 7746 หรือ E-mail : info@amnesty.or.th, campaign@amnesty.or.th</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">ศูนย์ช่วยเหลือเร่งด่วน 24 ชั่วโมง กรมประชาสงเคราะห์</th>
+						      <td class="table-two"><a class="table-two" href="">-</a></td>
+						      <td class="table-three">1507, 1578</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">สมาคมเพื่อการพัฒนาสิทธิมนุษยชนและสิทธิผู้หญิง ที่อยู่: 1770(220) ซอยลาดพร้าว101 ถนนลาดพร้าว แขวงคลองจั่น เขตบางกะปิ กรุงเทพมหานคร</th>
+						      <td class="table-two"><a class="table-two" href="http://www.awardassociation.org/">Click!</a></td>
+						      <td class="table-three">02 731 4358, โทรสาร: 02 731 5218 หรือ Email : ngosword@gmail.com</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">บ้านพักฉุกเฉิน (สตรีที่ประสบปัญหาสามีทอดทิ้ง,ติดเชื้อเอดส์…..) 501/1 ซ.เดชะตุงคะ1 ถ.เดชะตุงคะ แขวงสีกัน ดอนเมือง กรุงเทพมหานคร 10210</th>
+						      <td class="table-two"><a class="table-two" href="https://www.facebook.com/apswthailand.org/">Click!</a></td>
+						      <td class="table-three">02-56-2707, 02 929 3926, 02 929 2222 ต่อ 305-6</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">บ้านพระคุณ (ให้บริการสตรีตั้งครรภ์เมื่อไม่พร้อม) ซอยกัญญา2 ตำบลสำโรงเหนือ อำเภอเมืองสมุทรปราการ สมุทรปราการ 10270</th>
+						      <td class="table-two"><a class="table-two" href="https://www.rsathai.org/contents/listing/%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%84%E0%B8%B8%E0%B8%93-home-of-grace">Click!</a></td>
+						      <td class="table-three">02 759 1238, 02 739 1201</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">องค์การยูนิเซฟ ประเทศไทย 19 ถนนพระอาทิตย์ เขตพระนคร กรุงเทพ 10200</th>
+						      <td class="table-two"><a class="table-two" href="https://www.unicef.org/thailand/th">Click!</a></td>
+						      <td class="table-three">02 356 9499, Fax : 02 280 3563 หรือ Email: thailandao@unicef.org</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">มูลนิธิศูนย์ฮอทไลน์ ปรึกษาปัญหาชีวิต และโรคเอดส์ โทรฟรีทั่วประเทศ  145/6-7 ถนนวิภาวดีรังสิต20 (ซอยทรงสะอาด) แยก 6-1 แขวงจอมพล เขตจตุจักร กรุงเทพฯ 10900</th>
+						      <td class="table-two"><a class="table-two" href="http://www.hotline.or.th/2019/">Click!</a></td>
+						      <td class="table-three">02 277 8811, 02 277 7699</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">สมาคมบัณฑิตสตรีทางกฎหมายแห่งประเทศไทยในพระบรมราชินูปถัมภ์  เลขที่ 6 ถนนสุโขทัย แขวงสุโขทัย เขตดุสิต กรุงเทพมหานคร 10300</th>
+						      <td class="table-two"><a class="table-two" href="https://www.wlat.or.th">Click!</a></td>
+						      <td class="table-three">02 241 0737, 02 243 5615 หรือ Email : wlat.t@hotmail.com</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">คลีนิกนิรนาม (โครงการโรคเอดส์)บริการตรวจกามโรค สภากาชาดไทย (บริการตรวจโรคเอดส์ โดยมีการให้คำปรึกษาก่อนและหลังการตรวจ และสำหรับกามโรค มีบริการตรวจซิฟิลิชเดียงอย่างเดียว)</th>
+						      <td class="table-two"><a class="table-two" href="https://th.trcarc.org/en">Click!</a></td>
+						      <td class="table-three">02 256 4109</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">กรมพัฒนาสังคมและสวัสดิการ เลขที่ 1034 ถ.กรุงเกษม แขวงคลองมหานาค เขตป้อมปราบศัตรูพ่าย กรุงเทพฯ ประเทศไทย 10100</th>
+						      <td class="table-two"><a class="table-two" href="http://www.dsdw2016.dsdw.go.th/index.php">Click!</a></td>
+						      <td class="table-three">.02 659 6399</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">ศูนย์ดำรงธรรม</th>
+						      <td class="table-two"><a class="table-two" href="http://www.damrongdhama.moi.go.th/">Click!</a></td>
+						      <td class="table-three">1567 หรือ Email : moi1567@hotmail.com </td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">สำนักงานยุติธรรมจังหวัด</th>
+						      <td class="table-two"><a class="table-two" href="https://provincial.moj.go.th/">Click!</a><br><a class="table-two" href="https://provincial.moj.go.th/view/4393">Click!</a></td>
+						      <td class="table-three">-</td>
+						    </tr>
+						    <tr class="table-tr">
+						      <th scope="row" class="table-one">กระทรวงยุติธรรม อาคารศูนย์ราชการเฉลิมพระเกียรติ 80 พรรษา 5 ธันวาคม 2550 เลขที่ 120 หมู่ 3 อาคารราชบุรีดิเรกฤทธิ์ ถนนแจ้งวัฒนะ แขวงทุ่งสองห้อง เขตหลักสี่ กรุงเทพมหานคร 10210</th>
+						      <td class="table-two"><a class="table-two" href="https://www.moj.go.th/index.php">Click!</a></td>
+						      <td class="table-three">02 141 5100 หรือ Email :  complainingcenter@moj.go.th</td>
+						    </tr>
+						</tbody>
+					</table>
+				</div>
+				</div>
+			</div>
+		</nav>		
+	</header>
+	
+	<section data-scroll-section>
+		<div class="content-one">
+			<div class="content-one-text">
+				<div class="content-one-graphic"><img  class="content-one-graphic-img" src="images/logo/content_element-01.png"></div>
+				<h1 class="content-one-text-h">การล่วงละเมิดทางเพศ<br>และความรุนแรงคืออะไร?</h1>
+				<p class="content-one-text-c">ขณะที่สถานการณ์ความรุนแรงทางเพศในไทยถือว่าอยู่ในระดับที่น่าเป็นห่วง จากการรวบรวมสถิติข่าวความรุนแรงทางเพศปี 2560 ในหนังสือพิมพ์ 13 ฉบับ โดยมูลนิธิหญิงชายก้าวไกล พบว่าเกิดเหตุความรุนแรงทางเพศทั้งหมด 317 ข่าว ซึ่งช่วงอายุของผู้ถูกกระทำเกินครึ่งเป็น กลุ่มเด็กและเยาวชน อายุ 5-20 ปีถึง 60.6% รองลงมาอายุ 41-60 ปี 30.9% ที่น่ากังวลใจคืออายุของผู้ถูกกระทำน้อยที่สุด เป็นเด็กหญิง 5 ขวบถูกข่มขืน และมากที่สุด 90 ปี และที่น่าเศร้าใจคือมีผู้เสียชีวิต 20 ราย ด้านกลุ่มอาชีพผู้ถูกกระทำมากที่สุดคือนักเรียน นักศึกษา ถึง 60.9% <br>
+				ที่น่าตกใจคือผู้กระทำความรุนแรงกว่าครึ่งเป็นคนรู้จักคุ้นเคยหรือบุคคลในครอบครัวกว่า 53% รองลงมาเป็นคนแปลกหน้า ไม่รู้จักกัน 38.2% และคนที่รู้จักกันผ่านโซเชียล 8.8% โดยอายุของผู้กระทำที่น้อยที่สุดคือ 12 ปี ซึ่งปัจจัยที่กระตุ้นให้เกิดความรุนแรงทางเพศมากที่สุดคือ เครื่องดื่มแอลกอฮอล์ สูงถึง 31.1% รองลงมาอ้างว่ามีอารมณ์ทางเพศ 28% ส่วนสถานที่เกิดเหตุเกิดมักจะเป็นในที่พักของผู้ถูกกระทำฯ และในที่เปลี่ยว ถนนเปลี่ยว 
+				ในส่วนกรณีที่เป็นคนใกล้ชิดหรือรู้จักคุ้นเคยกระทำ ซึ่งส่วนใหญ่เกิดขึ้นในประเภทข่าวข่มขืน และมีหลายกรณีที่อาศัยความไว้ใจเชื่อใจ และล่อลวง ซึ่งได้ส่งผลกระทบต่อผู้ถูกกระทำให้หวาดผวา ระแวง และกลัว มากที่สุด 26.1% แต่ที่น่าห่วงคือยังถูกบังคับให้มีเพศสัมพันธ์เป็นระยะเวลายาวนาน หลายครั้ง 12.8%
+				คุณจรีย์ ศรีสวัสดิ์ มูลนิธิหญิงชายก้าวไกล กล่าวถึงข้อเสนอในกรณีที่เกิดปัญหาขึ้นว่า ครอบครัวควรให้กำลังใจ ไม่กล่าวโทษว่าเป็นความผิดของผู้ถูกกระทำ ควรสร้างความมั่นใจ เพื่อลดความหวาดกลัวสิ้นหวัง โดยไทยควรมีหลักสูตรการเรียนรู้ทั้งในระดับโรงเรียน เพื่อให้เคารพในเนื้อตัวร่างกายของผู้หญิง รวมถึงบุคคลในหน่วยงาน อย่างโรงพยาบาล มหาวิทยาลัย ควรมีความรู้ ความเข้าใจในประเด็นปัญหาความรุนแรงทางเพศที่ละเอียดอ่อน ไม่กระทำซ้ำผู้ถูกกระทำ อีกทั้งในเยียวยาผู้ถูกกระทำต้องดูแลต่อเนื่อง เน้นการทำงานกับพลังภายในของผู้ถูกกระทำ เพื่อทำให้เห็นคุณค่าและศักยภาพความสามารถของตนเอง เพราะการข่มขืนไม่ได้เพียงแต่ทำร้ายร่างกายเท่านั้น แต่ทำลายคุณค่าภายในอีกด้วย</p>
+			</div>
+			<div class="pagination">
+				<ul class="pagination-next">
+					<li class="pagination-next-t"><a href="#" class="pagination-next-t">วิธีปกป้องตนเองในสถานการณ์ ที่เราตกเป็นเหยื่อของ Sexual harassment!? ❯</a></li>
+					<li class="pagination-next-t"><a href="department.html" class="pagination-next-t">ขอคำปรึกษา หรือขอความช่วยเหลือจากหน่วยงานหรือองค์กร ที่นี่ ❯</a></li>
+				</ul>	
+			</div>	
+		</div>
+	</section>
+
+	<footer class="footer-main">
+		<div class="footer-brand">
+			<a href="index.html"><img class="footer-brand-img" src="images/logo/logo_dareout-01.png"></a>
+		</div>
+		<div class="footer-contect">
+			<a href="#"><img class="footer-contect-img" src="images/logo/homepage_element_footer_button-02.png"></a>
+			<a href="#"><img class="footer-contect-img" src="images/logo/homepage_element_footer_button-01.png"></a>
+		</div>
+		<div class="footer-contect-p">SEY HELLO</div>
+		<div class="footer-contect-t"><img class="footer-contect-t-img" src="images/logo/homepage_element_footer_button-04.png"> +66 934 516 929 , +66 924 149 446</div>
+		<div class="footer-contect-e"><img class="footer-contect-e-img" src="images/logo/homepage_element_footer_button-03.png"> eiw.wachirapan@gmail.com , parn.171040@gmail.com</div>
+	</footer>
+
+		<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+		<script src="assets/js/custom.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
+		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+		<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+	    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    	<script src="assets/js/jquery.min.js"></script>
+    	<script src="assets/js/jquery.scrolly.min.js"></script>
+    	<script src="assets/js/skel.min.js"></script>
+    	<script src="assets/js/util.js"></script>
+    	<script src="assets/js/main.js"></script>
+    	<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    	<script>
+			var checkOpen = false; 
+				function closeNav() {
+					document.getElementById("myNav").style.width = "0%";
+					}
+				function openNavRight() {
+					document.getElementById("mySidenav").style.width = "240%";
+					closeNav();
+					document.getElementById("rightOff").style.display = "none";
+					document.getElementById("rightOn").style.display = "block";
+					}
+				function closeNavRight() {
+					document.getElementById("mySidenav").style.width = "0";
+					document.getElementById("rightOn").style.display = "none";
+					document.getElementById("rightOff").style.display = "block";
+					}
+		</script>
+
+</body>
+</html>
