@@ -330,6 +330,12 @@ html {
   z-index: -1;
 }
 
+#container-video5 {
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
 #playtext {
   position: absolute;
   font-family: 'Kanit', sans-serif !important;
