@@ -201,16 +201,30 @@
 	</header>
 		<div class="container" id="displayend">
 			<div class="displayimg">
-			    <a class="btn btn-primary btn-lgf" href="" role="button" >คลิกที่นี่</a>
-			    <img id="displayimg-i" src="images/logo/Popup_scan01.png">
+			    <a class="btn btn-primary btn-lgf" role="button" onclick="toggle();">คลิกที่นี่</a>
+				<img id="displayimg-i" src="images/logo/Popup_scan01.png">
+				<div class="videoplayon">
+					<video src="video/Officeharassment_1.mp4" controls></video>
+					<img src="images/logo/close.png" class="close" onclick="toggle();">
+				</div>
 			</div>
 			<div class="displayimg1">
-			    <a class="btn btn-primary btn-lgf" href="AR-JS.html" role="button">คลิกที่นี่</a>
-			    <img id="displayimg-i" src="images/logo/Popup_scan02.png">
+			    <a class="btn btn-primary btn-lgf" role="button" onclick="toggle1();">คลิกที่นี่</a>
+				<img id="displayimg-i" src="images/logo/Popup_scan02.png">
+				<div class="imagesAR">
+					<div class="row row-img row-cols-4 justify-content-center">
+						<div class="col-auto"><img class="imagesARd" src="markers/QR-ARlink.png"></div>
+						<div class="col-auto"><img class="imagesARd" src="markers/pattern-marker_contast_CyberHarassment-04.png"></div>
+						<div class="col-auto"><img class="imagesARd" src="markers/pattern-marker_contast_family-03.png"></div>
+						<div class="col-auto"><img class="imagesARd" src="markers/pattern-marker_contast_office-01.png"></div>
+						<div class="col-auto"><img class="imagesARd" src="markers/pattern-marker_contast_PublicPlace-05.png"></div>
+						<div class="col-auto"><img class="imagesARd" src="markers/pattern-marker_contast_Subwayharass-02.png"></div>
+					</div>
+					<img src="images/logo/close.png" class="close" onclick="toggle1();">
+				</div>
 			</div>
 			<a class="btn btn-primary btn-lgg" href="" role="button">Close</a>
 		</div>
-		
 		<div class="container" id="container2">
 			<div class="row">
 			    <div class="col-8">
@@ -260,6 +274,15 @@
 					}
 
 		</script>
-		
+		<script type="text/javascript">  
+			function toggle() {
+				var videoplayon = document.querySelector(".videoplayon")
+				videoplayon.classList.toggle("active")
+			}
+			function toggle1() {
+				var imagesAR = document.querySelector(".imagesAR")
+				imagesAR.classList.toggle("active")
+			}
+		</script>
 </body>
 </html>
