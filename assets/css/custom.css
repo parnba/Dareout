@@ -278,7 +278,7 @@ html {
   display: grid;
   position: absolute;
   grid-template-columns: 50% 50%;
-  margin-right: 25%;
+  margin-right: 20%;
   margin-left: 20%;
   padding: 50px;
   box-shadow: 0 5px 30px rgba(0,0,0,.30);
@@ -294,6 +294,71 @@ html {
 
 }
 
+.videoplayon {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+  background: rgba(0,0,0,0.95);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.imagesAR {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+  background: rgba(0,0,0,0.95);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.videoplayon.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.imagesAR.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.videoplayon video {
+  position: relative;
+  max-width: 900px;
+  outline: none;
+}
+.imagesARd {
+  max-width: 250px;
+  max-height: 250px;
+}
+.row-img {
+  margin-top: 20%;
+  margin-bottom: 15%;
+}
+.imagesARd {
+  max-width: 900px;
+}
+.close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  max-width: 50px;
+}
 
 #text-vdo  {
   font-family: 'Kanit', sans-serif !important;
@@ -519,6 +584,10 @@ a.link-row {
   word-spacing: normal;
   background-color: #FF6C77 !important;
   border-color: #FF6C77 !important;
+}
+
+a {
+  color: #fff !important;
 }
 
 .btn-lgg {
@@ -911,6 +980,10 @@ input {
   margin-top: 5% !important;
   margin-right: 10% !important;
   margin-left: 10% !important;
+}
+
+#video-ar {
+  width: 100%;
 }
 
 .footer-main {
