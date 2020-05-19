@@ -32,5 +32,22 @@
 		</a-marker>
     	<a-entity camera></a-entity>
 	</a-scene>
+	<script type="text/javascript">  
+		function playVideoOnClick (selector) {
+ 			el = document.querySelector(selector);
+ 			if (el) {addListener();} 
+			else {window.addEventListener('load', addListener);}
+		function addListener () {
+    			if (el.paused) {window.addEventListener('click', handleFirstClick);}
+    		function handleFirstClick () {
+      			try {if (el.muted) {delete el.muted;}
+        		if (el.paused) {el.play();}} catch (e) {}
+      				removeHandleFirstClick();}
+
+    		function removeHandleFirstClick () {
+      			window.removeEventListener('click', handleFirstClick);}}}
+
+		playVideoOnClick('video');
+	</script>
 </body>
 </html>
