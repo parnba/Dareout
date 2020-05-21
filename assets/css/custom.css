@@ -876,7 +876,7 @@ a.sub-situation{
 */
 .container-main-bg-w {
   font-family: 'Kanit', sans-serif !important;
-/*   position: relative; */
+/*  position: relative;*/
   z-index: -2;
   background-color: white !important;
   max-width: 100%;
@@ -886,6 +886,7 @@ a.sub-situation{
   text-align: center;
   color: #202E78;
   padding: 9rem;
+  font-size: 3rem;
 }
 
 .row-content-m {
@@ -914,7 +915,17 @@ a.sub-situation{
 }
 
 .content-main-img {
- padding: 3rem;
+  padding: 3rem;
+}
+
+.d-block {
+  box-sizing: border-box !important;
+  padding-right: 15rem;
+  padding-left: 15rem;
+}
+
+.carousel-control-prev-icon .carousel-control-next-icon {
+  color: #202E78 !important;
 }
 
 .table-th {
