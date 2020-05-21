@@ -876,7 +876,7 @@ a.sub-situation{
 */
 .container-main-bg-w {
   font-family: 'Kanit', sans-serif !important;
-  position: relative;
+/*   position: relative; */
   z-index: -2;
   background-color: white !important;
   max-width: 100%;
