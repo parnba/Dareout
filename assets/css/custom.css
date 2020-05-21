@@ -190,7 +190,7 @@ html {
 .sub-situation:hover {
  text-decoration: none;
  outline: none;
- color: #FF6C77;
+ color: #FF6C77 !important;
 }
 
 .dropdown-situation {
