@@ -201,14 +201,31 @@
 	<section data-scroll-section>
 		<div class="container-main-bg-w">
 			<h1 class="main-text">บทความน่ารู้</h1>
-			<div class="content-main-img">
-				<img src="images/info/evidence_ingographic2020-01.png" class="img-fluid" id="img-fluid1">
-			</div>
-			<div class="content-main-img">
-				<img src="images/info/family_emergency_info2020-01.png" class="img-fluid" id="img-fluid2">
-			</div>
-			<div class="content-main-img">
-				<img src="images/info/protect_yourself_info2020-01.png" class="img-fluid" id="img-fluid3">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active" data-interval="50000">
+				    	<img src="images/info/evidence_ingographic2020-01.png" class="d-block w-100" id="img-fluid1">
+				    </div>
+				    <div class="carousel-item" data-interval="50000">
+				    	<img src="images/info/family_emergency_info2020-01.png" class="d-block w-100" id="img-fluid2">
+				    </div>
+				    <div class="carousel-item" data-interval="50000">
+				    	<img src="images/info/protect_yourself_info2020-01.png" class="d-block w-100" id="img-fluid3">
+				    </div>
+				  	</div>
+				  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    	<span class="sr-only">Previous</span>
+				  	</a>
+				  	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    	<span class="sr-only">Next</span>
+				  	</a>
 			</div>
 		</div>
 	</section>
