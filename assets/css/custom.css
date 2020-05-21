@@ -612,6 +612,15 @@ a.sub-situation{
  color: #DAD9D9 !important;
 }
 
+.lead-v {
+ font-family: 'Kanit', sans-serif !important;
+ font-size: 1.10rem !important;
+ color: #DAD9D9 !important;
+ padding-right:  7rem;
+ padding-left: 12rem;
+ padding-bottom: 2rem;
+}
+
 .btn-lg {
  padding: .1rem 4rem !important;
  font-size: 1rem !important;
