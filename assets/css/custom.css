@@ -106,7 +106,7 @@ html {
  /*height: 200%;*/
  overflow-y: scroll;
  width: 0;
- height: 2000%;
+ height: 60rem;
  position: fixed;
  z-index: 2;
  top: 0;
@@ -157,7 +157,7 @@ html {
 }
 
 .navbar.navbar-expand-lg.navbar-light {
- width: 30%;
+ width: 25%;
 }
 
 /*.p-header {
