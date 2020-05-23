@@ -1043,7 +1043,7 @@ a.sub-situation{
       padding-left: 3rem !important;
    }
    .navbar.navbar-expand-lg.navbar-light {
-      /*width: 35%;*/
+      width: 35%;
    }
    .btn-lg {
       margin-left: 60%;
