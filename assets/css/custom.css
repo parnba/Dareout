@@ -282,7 +282,7 @@ border-radius: .70rem;}
 .row {
   z-index: 1;
 }
-  .col.cover-one-text {
+.col.cover-one-text {
   position: static !important;
   }
 
