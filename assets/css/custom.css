@@ -279,6 +279,13 @@ border-radius: .70rem;}
  padding: 0 !important;
 }
 
+.row {
+  z-index: 1;
+}
+  .col.cover-one-text {
+  position: static !important;
+  }
+
 .my-4 {
  width: 10%;
  height: 15px;
@@ -926,10 +933,13 @@ a.sub-situation{
 */
 .container-main-bg-w {
   font-family: 'Kanit', sans-serif !important;
-  position: relative;
+  position: static;
   background-color: white !important;
   max-width: 100%;
   z-index: -1;
+}
+.col.col-mm {
+   position: static !important;
 }
 
 .main-text {
