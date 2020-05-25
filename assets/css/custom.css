@@ -40,6 +40,7 @@ html {
  margin-top: 30px;
 }
 
+
 .overlay a {
  padding: 8px;
  text-decoration: none;
@@ -89,6 +90,7 @@ html {
 
 .icon-size {
    width: 100%;
+   margin-left: 7%;
 }
 
 .table-layout {
@@ -151,7 +153,7 @@ html {
 /* text-align: center;*/
  align-items: center;
  justify-content: center;
- padding-top: 0rem !important;
+ padding: 0.3rem !important;
  width: 20%;
  margin-right: 5%;
 }
@@ -268,12 +270,13 @@ border-radius: .70rem;}
 .jumbotron {
  background-color: #202e78 !important;
  font-size: 6rem !important;
- margin-top: 5rem;
- margin-left: 20%;
+ margin-top: 3rem;
+ margin-left: 12%;
  font-family: 'Playfair Display', serif;
  color: white;
  font-weight: 600 !important;
  /*z-index: 1;*/
+ padding: 0 !important;
 }
 
 .my-4 {
@@ -413,6 +416,11 @@ border-radius: .70rem;}
  margin-bottom: 3%;
 }
 
+.col-v {
+  flex-basis: auto !important;
+
+}
+
 #container-video {
  width: 100%;
  height: auto;
@@ -450,7 +458,7 @@ border-radius: .70rem;}
 .cover-tt {
  background-color: white;
  width: 100%;
- height: 2100px;
+ height: 100%;
  font-family: 'Kanit', sans-serif;
  margin-top: 9%;
 }
@@ -573,7 +581,7 @@ a.link-row {
  display: grid;
  grid-template-columns: 50% 50%;
  margin-top: 5%;
- /*margin-bottom: 5%;*/
+ padding:  5%;
 }
 
 .cover-tree-blog-img-i {
@@ -587,7 +595,6 @@ a.link-row {
  font-family: 'Kanit', sans-serif !important;
  background-color: white !important;
  color: #202E78 !important;
- margin-top: 20%;
  margin-left: 10%;
  margin-right: 25%;
 }
@@ -609,6 +616,10 @@ a.link-row {
  word-spacing: normal;
  background-color: #FF6C77 !important;
  border-color: #FF6C77 !important;
+}
+
+a.btn-lgf {
+  color: #FFFFFF !important;
 }
 
 a.sub-situation{
@@ -864,8 +875,7 @@ a.sub-situation{
 .content-one-t {
  text-align: center;
  background-color: white;
- width: 100%;
- height: 100%;
+ max-width: 100%;
  font-family: 'Kanit', sans-serif;
 }
 
@@ -963,8 +973,8 @@ a.sub-situation{
 
 .d-block {
   box-sizing: border-box !important;
-  padding-right: 15rem;
-  padding-left: 15rem;
+  padding-right: 7rem;
+  padding-left: 7rem;
 }
 
 .carousel-control-prev-icon .carousel-control-next-icon {
@@ -1043,7 +1053,7 @@ a.sub-situation{
       padding-left: 3rem !important;
    }
    .navbar.navbar-expand-lg.navbar-light {
-      width: 35%;
+      width: 45%;
    }
    .btn-lg {
       margin-left: 60%;
@@ -1053,16 +1063,66 @@ a.sub-situation{
    }
    
    .navbar-inverse.pt-5.px-5 {
-      padding-top: 0rem !important;
+      padding: 0.1rem !important;
       width: 25%;
       margin-right: 5%;
    }
    .get-help-btn {
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
     margin: 0;
     height: 70px;
    }
-
+   .jumbotron{
+    padding:  0 !important;
+    margin-left: 15%;
+    padding-bottom: 0 !important;
+   }
+    .col-6 {
+    flex: 50%;
+    max-width: 100%;
+  }
+   #btn-lg {
+    padding: 0.6rem;
+    margin-left: 1%;
+  }
+  a#btn-lg {
+    font-size: 0.5rem !important;
+  }
+  .my-4-t {
+    font-size: 1.2rem;
+   margin-top: 7% ;
+  }
+  .my-4 {
+    width: 30%;
+    height: 5px;
+  }
+  .lead-v {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 0;
+    font-size: 0.6rem !important;
+  }
+  #playtext {
+    font-size: 0.6rem !important;
+  }
+  .row-blog {
+  margin-left: 10% !important;
+  }
+  .col-sm-blog {
+    height: 380px;
+  }
+  .col-sm-blog-text{
+    font-size: 1rem;
+  }
+  .display-4-tree {
+    font-size: 2rem;
+  }
+  .lead-tree {
+    font-size: 1.5rem;
+  }
+  .btn-lgf {
+    padding: .2rem 3rem !important;
+  }
    .table-layout {
     font-size: 12px;
    }
@@ -1077,8 +1137,8 @@ a.sub-situation{
     padding: 0 !important;
    }
    .main-text {
-    font-size: 1.5rem;
-    padding: 3rem;
+    font-size: 1rem !important;
+    padding: 1rem !important;
    }
    .row-content-m {
     margin-left: 0 !important;
@@ -1089,29 +1149,109 @@ a.sub-situation{
     padding-left: 2rem !important;
    }
    .img-mm{
-    width: 450px;
-    height: 450px;
+    width: 400px !important;
+    height: 400px !important;
    }
    .main-content-l {
     margin-top:  2rem;
     margin-bottom:  2rem;
    }
-
+   .footer-contect-t, .footer-contect-e, .footer-contect-p {
+    font-size: 0.8rem;
+  }
+  
+  #text-vdo {
+    font-size: 1.5rem;
+  }
+  #text-vdo1 {
+    font-size: 0.8rem;
+  }
+  #displayend {
+    margin-left: 7.5%;
+    padding: 30px;
+  }
+  .btn-lgg {
+    padding: 0 !important;
+  }
+  .end-cd {
+    padding-bottom:  1rem !important;
+    margin-top:   1rem !important;
+    font-size: 0.6rem !important;
+   }
+   .d-block {
+    padding-right: 5rem;
+    padding-left: 5rem;
+   }
 }
 
 
 @media only screen and (max-width: 500px) {
   .navbar-inverse.pt-5.px-5 {
-      padding-top: 0rem !important;
+      padding: 0.1rem !important;
       width: 25%;
       margin-right: 5%;
    }
-   .get-help-btn {
-    font-size: 1rem !important;
-    margin: 0;
-    height: 70px;
+   .navbar.navbar-expand-lg.navbar-light {
+      width: 40%;
    }
-
+   .get-help-btn {
+    font-size: 0.5rem !important;
+    margin: 0;
+    padding : 0 !important;
+   }
+   a#btn-lg {
+    font-size: 0.3rem !important;
+  }
+   .jumbotron{
+    padding:  0 !important;
+    margin-left: 15%;
+    padding-bottom: 0 !important;
+   }
+  .col-6 {
+    flex: 50%;
+    max-width: 100%;
+  }
+  .my-4-t {
+    font-size: 1.2rem;
+   margin-top: 7% ;
+  }
+  .my-4 {
+    width: 30%;
+    height: 5px;
+  }
+  .lead-v {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 0;
+    font-size: 0.6rem !important;
+  }
+  #playtext {
+    font-size: 0.4rem !important;
+  }
+  .cover-tt-text {
+    font-size: 1rem;
+  }
+  .my-6 {
+    height: 5px;
+  }
+  .row-blog {
+    margin-left: 10% !important;
+  }
+  .col-sm-blog-text {
+    font-size: 1rem;
+  }
+  .col-sm-blog {
+    height: 400px;
+  }
+  a.link-row {
+    margin-left: 45%;
+  }
+  .display-4-tree {
+    font-size: 1rem;
+  }
+  .lead-tree {
+    font-size: 0.8rem;
+  }
    .table-layout {
     font-size: 12px;
    }
@@ -1145,18 +1285,106 @@ a.sub-situation{
     margin-top:  2rem;
     margin-bottom:  2rem;
    }
+  
+  #text-vdo {
+    font-size: 1rem !important;
+  }
+  #text-vdo1 {
+    font-size: 0.8rem !important;
+  }
+  .btn-lgf {
+    padding: .3rem .9rem !important;
+    font-size: 0.7rem !important;
+  }
+  .btn-lgg {
+    font-size: 0.7rem !important;
+  }
+  #displayend {
+    margin-left: 0.5%;
+    padding: 30px;
+  }
+  .content-one-h {
+    font-size: 1rem !important;
+  }
+  a.table-two{
+    font-size: 0.6rem !important;
+  }
+  #btn-lg {
+    padding: 0.4rem;
+    margin-left: 1%;
+  }
 }
 
-/*@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
+  #btn-lg {
+    padding: 0.3rem;
+  }
+  a#btn-lg {
+    font-size: 0.15rem !important;
+  }
+  .jumbotron{
+    padding:  0 !important;
+    margin-left: 10%;
+    padding-bottom: 0 !important;
+   }
+  .col-6 {
+    flex: 50% !important;
+    max-width: 100% !important;
+  } 
+  .my-4-t {
+    font-size: 1rem;
+   margin-top: 7% ;
+  }
+  .my-4 {
+    width: 30%;
+    height: 5px;
+  }
+  .lead-v {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 0;
+    font-size: 0.4rem !important;
+  }
+  #playtext {
+    font-size: 0.15rem !important;
+  }
+  .cover-tt-text {
+    font-size: 1rem;
+  }
+  .my-6 {
+    height: 5px;
+  }
+  .row-blog {
+    margin-left: 10% !important;
+  }
+  .col-sm-blog-text {
+    font-size: 1rem;
+  }
+  .col-sm-blog {
+    height: 350px;
+  }
+  a.link-row {
+    margin-left: 42%;
+  }
+  .display-4-tree {
+    font-size: 1rem;
+  }
+  .lead-tree {
+    font-size: 0.8rem;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
   .navbar-inverse.pt-5.px-5 {
       padding-top: 0rem !important;
       width: 25%;
       margin-right: 5%;
    }
    .get-help-btn {
-    font-size: 1rem !important;
+    /*font-size: 0.8rem !important;*/
     margin: 0;
-    height: 70px;
+    padding: 0 !important;
    }
 
    .table-layout {
@@ -1192,8 +1420,21 @@ a.sub-situation{
     margin-top:  2rem;
     margin-bottom:  2rem;
    }
+   
+  #text-vdo {
+    font-size: 1rem !important;
+  }
+  #text-vdo1 {
+    font-size: 0.6rem !important;
+  }
+  .end-cd {
+    font-size: 0.5rem !important;
+  }
+  .table-tr {
+    font-size: 9px !important;
+   }
 }
-*/
+
 
 @media only screen and (max-width: 768px) {
   .btn-lg {
@@ -1204,14 +1445,50 @@ a.sub-situation{
    }
    
    .navbar-inverse.pt-5.px-5 {
-      padding-top: 0rem !important;
+      padding: 0.1rem !important;
       width: 25%;
       margin-right: 5%;
    }
    .get-help-btn {
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
     margin: 0;
     height: 60px;
+   }
+   .jumbotron {
+    margin-top: 0;
+    padding : 0 !important;
+   }
+   .display-4 {
+    font-size: 2rem !important;
+   }
+   .display-5 {
+    font-size: 1.5rem !important;
+   }
+   .lead {
+    font-size: 0.8rem !important;
+   }
+   .btn-lg {
+     padding: 0.6rem;
+    margin-left: 1%;
+    margin-left : 0 !important;
+   }
+   .my-4 {
+    width: 25%;
+    height: 10px;
+   }
+   .my-4-t {
+    font-size: 1.3rem ;
+    margin-top: 5%;
+   }
+   .lead-v {
+    font-size: 0.7rem !important;
+    padding-right: 4rem;
+    padding-left: 5rem;
+    padding-bottom: 0;
+   }
+   .img-mm{
+    width: 500px;
+    height: 500px;
    }
 
    .table-layout {
@@ -1234,10 +1511,62 @@ a.sub-situation{
      padding-left: 35%;
      padding-right: 35%;
     }
-
+    #playtext {
+    font-size: 0.6rem;
+  }
+  #text-vdo {
+    font-size: 1.7rem;
+  }
+  #text-vdo1 {
+    font-size: 1rem;
+  }
+  #displayend {
+    margin-left: 10%;
+  }
+  .end-cd {
+    padding-bottom: 3rem;
+    font-size: 1rem;
+   }
+   .content-one-h {
+    font-size: 1.5rem;
+  }
+  .row-blog {
+    margin-left: 10% !important;
+  }
+  .col-sm-blog{
+    height: 400px;
+  }
+  .col-sm-blog-text {
+    font-size: 1.1rem;
+  }
+  .display-4-tree {
+    font-size: 2rem;
+  }
+  .lead-tree {
+    font-size: 1rem;
+  }
+  .btn-lgf {
+    padding: .6rem 4rem !important;
+  }
 }
 
 @media only screen and (min-width: 768px) {
+ .sidenav {
+    /*height: 500%;*/
+    padding-top: 40px;
+ }
+ #playtext {
+  font-size: 0.8rem;
+ }
+ }
+
+ @media only screen and (max-width: 800px) {
+ .btn-lgf {
+    padding: .3rem 3rem !important;
+  }
+ }
+
+@media only screen and (min-width: 700px) {
  .sidenav {
     /*height: 500%;*/
     padding-top: 40px;
@@ -1246,41 +1575,12 @@ a.sub-situation{
     width: 500px;
     height: 500px;
    }
-  
-}
 
-@media only screen and (min-width: 700px) {
- .sidenav {
-    /*height: 500%;*/
-    padding-top: 40px;
- }
- .img-mm{
-    width: 400px;
-    height: 400px;
-   }
 }
 
 
-@media only screen and (min-width: 992px) {
-  .navbar-inverse.pt-5.px-5 {
-      padding-top: 0rem !important;
-      width: 20%;
-      margin-right: 5%;
-   }
-   .get-help-btn {
-    font-size: 1rem !important;
-    margin: 0;
-    height: 70px;
-   }
-   .img-mm{
-    width: 700px;
-    height: 700px;
-   }
 
-   
-}
-
-@media only screen and (max-width: 992px;) {
+@media only screen and (max-width: 992px) {
 
   .btn-lg {
       margin-left: 60%;
@@ -1288,27 +1588,63 @@ a.sub-situation{
      line-height: 3 !important;
      border-radius: 2rem !important;
    }
-   
-   .navbar-inverse.pt-5.px-5 {
-      padding-top: 0rem !important;
-      width: 25%;
-      margin-right: 5%;
-      margin-left: 35%
-   }
-   .get-help-btn {
-    font-size: 1rem !important;
-    margin: 0;
-    height: 60px;
+   .navbar.navbar-expand-lg.navbar-light {
+      width: 45%;
    }
 
+   .navbar-inverse.pt-5.px-5 {
+      padding: 0.4rem 0.1rem !important;
+      width: 25%;
+      margin-left: 65% !important;
+    } 
+   .get-help-btn {
+    /*font-size: 1rem !important;*/
+    margin: 0;
+   }
+   .jumbotron {
+    margin-top: 0;
+    padding : 0 !important;
+   }
+   .display-4 {
+    font-size: 2rem !important;
+   }
+   .display-5 {
+    font-size: 1.5rem !important;
+   }
+   .btn-lg {
+     padding: 0.8rem 0.1rem !important;
+    margin-left: 1%;
+    margin-left : 0 !important;
+   }
+   a#btn-lg {
+    font-size: 0.6rem !important;
+    padding: 1rem !important;
+   }
+   .my-4 {
+    width: 25%;
+    height: 10px;
+   }
+   .my-4-t {
+    font-size: 1.3rem ;
+    margin-top: 6%;
+   }
+   .lead-v {
+    font-size: 0.8rem !important;
+    padding-right: 5rem;
+    padding-left: 7rem;
+    padding-bottom: 0;
+   }
    .table-layout {
-    font-size: 20px;
+    font-size: 18px;
    }
    .font-weight-bold {
     font-size: 35px;
    }
    a.table-two{
-    font-size: 20px;
+    font-size: 15px;
+   }
+
+   .table-tr {
     padding: 0 !important;
    }
    .table td, .table th {
@@ -1318,19 +1654,65 @@ a.sub-situation{
     width: 30%;
   }
     .footer-contect{
-     padding-left: 20%;
-     padding-right: 20%;
+     padding-left: 35%;
+     padding-right: 35%;
     }
-   
+   #displayend {
+    margin-left: 10%;
+  }
+  .d-block {
+    padding-right: 2rem;
+    padding-left: 2rem;
+   }
+   .end-cd {
+    padding-left: 7rem;
+   }
+     .row-blog {
+    margin-left: 10% !important;
+   }
 }
 
 @media only screen and (max-width: 1300px) {
   .navbar-list-l {
-    font-size: 14px;
+    font-size: 12px;
     padding: 2px 2px;
   } 
   .navbar-nav {
     padding-left: 2.5rem !important;
+  }
+  .get-help-btn {
+    margin-top: 0;
+  }
+  .main-text {
+    font-size: 2rem;
+    padding: 3rem;
+   }
+   .end-cd {
+    padding-bottom: 5rem;
+   }
+  /* #carouselExampleIndicators {
+    padding: 1rem;
+   }*/
+}
+
+@media only screen and (max-width: 1500px) {
+  /*.display-4 {
+    font-size: 3rem;
+  }
+
+  .display-5 {
+    font-size: 2.5rem;
+  }
+
+  .lead {
+    font-size: 1rem ;
+  }*/
+
+  a.table-two{
+    font-size: 15px;
+   }
+   .get-help-btn {
+    margin-top: 0;
   }
 }
 
@@ -1341,6 +1723,43 @@ a.sub-situation{
   } 
   .navbar-nav {
     padding-left: 2rem !important;
+  }
+  .get-help-btn {
+    margin-top: 0;
+  }
+  /*.display-4 {
+    font-size: 2.5rem !important;
+  }
+
+  .display-5 {
+    font-size: 2rem !important;
+  }
+
+  .lead {
+    font-size: 0.8rem !important;
+  }*/
+  .table-layout {
+    font-size: 20px;
+   }
+   .font-weight-bold {
+    font-size: 35px;
+   }
+   a.table-two{
+    font-size: 18px;
+   }
+
+   .table-tr {
+    font-size: 13px;
+    padding: 0 !important;
+   }
+   .table td, .table th {
+    padding: 0 !important;
+   }
+   #displayend {
+    margin-left: 5%;
+  }
+  .content-one-h {
+    font-size: 2rem;
   }
 }
 
