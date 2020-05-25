@@ -1047,6 +1047,19 @@ a.sub-situation{
  height: 50px;
 }
 
+@media only screen and (min-width: 600px) {
+  .img-mm{
+    width: 450px ;
+    height: 450px ;
+   }
+}
+
+@media only screen and (min-width: 800px) {
+  .img-mm{
+    width: 600px ;
+    height: 600px ;
+   }
+} 
 
 @media only screen and (max-width: 600px) {
    .navbar-li {
@@ -1148,10 +1161,6 @@ a.sub-situation{
     padding-right: 0 !important;
     padding-left: 2rem !important;
    }
-   .img-mm{
-    width: 400px !important;
-    height: 400px !important;
-   }
    .main-content-l {
     margin-top:  2rem;
     margin-bottom:  2rem;
@@ -1185,7 +1194,7 @@ a.sub-situation{
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 560px) {
   .navbar-inverse.pt-5.px-5 {
       padding: 0.1rem !important;
       width: 25%;
@@ -1278,8 +1287,15 @@ a.sub-situation{
     padding-left: 2rem !important;
    }
    .img-mm{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
+   }
+   .main-content-head {
+    font-size: 1.5rem !important;
+   }
+   .main-content-p {
+    margin-top: 2rem;
+    font-size: 0.8rem;
    }
    .main-content-l {
     margin-top:  2rem;
@@ -1310,7 +1326,7 @@ a.sub-situation{
     font-size: 0.6rem !important;
   }
   #btn-lg {
-    padding: 0rem 0rem !important;
+    padding: 0.6rem 0rem !important;
     margin-left: 1%;
   }
 }
@@ -1412,10 +1428,7 @@ a.sub-situation{
     padding-right: 0 !important;
     padding-left: 2rem !important;
    }
-   .img-mm{
-    width: 200px;
-    height: 200px;
-   }
+   
    .main-content-l {
     margin-top:  2rem;
     margin-bottom:  2rem;
@@ -1489,11 +1502,7 @@ a.sub-situation{
     padding-left: 3rem;
     padding-bottom: 0;
    }
-   .img-mm{
-    width: 500px;
-    height: 500px;
-   }
-
+   
    .table-layout {
     font-size: 15px;
    }
