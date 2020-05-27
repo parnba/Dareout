@@ -957,6 +957,9 @@ a.sub-situation{
   padding: 5rem !important;
 }
 
+.col.col-para{
+  position: static !important;
+}
 .col-para {
   padding-left:  5rem !important;
   padding-right:   5rem !important;
